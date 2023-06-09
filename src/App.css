@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ceviche+One&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title h1{
+  text-align: center;
+  padding: 30px 0px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Ceviche One';
+  font-size: 49px;
+}
+
+.nav{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(107px,auto));
+  justify-content: center;
+  grid-gap: 15% 2%;
+  margin-top: 20px;
+  padding: 10px;
+}
+.nav button{
+  padding: 10px 15px;
+  background-color:#e79213;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+  transition: all .2s;
+}
+.nav button:hover{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: #e79213;
+}
+
+.item-grid-container{
+  margin-top: 4%;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(351px, auto ) );
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px 25px;
+  gap: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 14px;
+ position: relative;
+}
+.icon{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 8px 8px;
+}
+.item-img{
+  width: 180px;
+
+}
+
+.item-grid-container .item:nth-child(1) .item-img,
+.item-grid-container .item:nth-child(7) .item-img,
+.item-grid-container .item:nth-child(11) .item-img,
+.item-grid-container .item:nth-child(12) .item-img
+{
+  height: 180px;
+}
+
+.item-grid-container .item:nth-child(14) .item-img,
+.item-grid-container .item:nth-child(15) .item-img,
+.item-grid-container .item:nth-child(18) .item-img,
+.item-grid-container .item:nth-child(21) .item-img
+{
+  height: 220px;
+}
+
+
+.item-img img{
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+.item-details .product-name{
+  font-size: 22px;
+  font-weight: 800;
+}
+.item-details p{ 
+margin-top: 4px;
+}
+.price_order{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  gap:2rem;
+}
+
+.order button{
+  padding: 8px 10px;
+  background-color: #e79213;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+}
