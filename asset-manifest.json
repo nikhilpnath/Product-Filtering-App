@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Product-Filtering-App/static/css/main.a825f01f.css",
+    "main.js": "/Product-Filtering-App/static/js/main.587f7435.js",
+    "index.html": "/Product-Filtering-App/index.html",
+    "main.a825f01f.css.map": "/Product-Filtering-App/static/css/main.a825f01f.css.map",
+    "main.587f7435.js.map": "/Product-Filtering-App/static/js/main.587f7435.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a825f01f.css",
+    "static/js/main.587f7435.js"
+  ]
+}
